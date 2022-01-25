@@ -7,24 +7,25 @@ PODS:
   - libsodium (1.0.12)
   - libzmq (4.2.3)
   - OpenSSL-Universal (1.0.1.16)
-  - OpenSSL-XM (1.0.210.1)
+  - OpenSSL-XCFramework (1.0.210.1)
 
 DEPENDENCIES:
   - CoreBitcoin (from `https://raw.github.com/oleganza/CoreBitcoin/master/CoreBitcoin.podspec`)
   - libindy (= 1.15.0)
   - libsodium
   - libzmq (= 4.2.3)
-  - OpenSSL-XM
+  - OpenSSL-XCFramework
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - ISO8601DateFormatter
     - libsodium
     - OpenSSL-Universal
-    - OpenSSL-XM
   https://github.com/hyperledger/indy-sdk.git:
     - libindy
     - libzmq
+  https://github.com/Przytua/indy-specs.git:
+    - OpenSSL-XCFramework
 
 EXTERNAL SOURCES:
   CoreBitcoin:
@@ -37,8 +38,8 @@ SPEC CHECKSUMS:
   libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
   libzmq: fcb6b6159c43147bc04174ec93cb65e5baaf016c
   OpenSSL-Universal: 85ef63bf81d0741b03c8719cd29685c37c59518d
-  OpenSSL-XM: f2d7697be2a4b01a2c62239fd577e4137cab4f3a
+  OpenSSL-XCFramework: 89264c2b79de8415274a9c7db148d8f102224a1a
 
-PODFILE CHECKSUM: b112b6998cbcf7d810d425ce008a14927826e73d
+PODFILE CHECKSUM: 86ac4c34b382bbd416569b85c31f4a6f237c26b6
 
 COCOAPODS: 1.11.2
