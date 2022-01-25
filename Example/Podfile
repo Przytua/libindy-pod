@@ -1,0 +1,16 @@
+source 'https://github.com/Przytua/indy-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/hyperledger/indy-sdk.git'
+
+use_modular_headers!
+
+platform :ios, '10.0'
+
+target 'Indy_Example' do
+  pod 'IndyWrapper', :path => '../'
+
+  target 'Indy_Tests' do
+    inherit! :search_paths
+
+  end
+end

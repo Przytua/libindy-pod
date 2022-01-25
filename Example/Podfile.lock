@@ -1,0 +1,37 @@
+PODS:
+  - IndyCore (1.15.0)
+  - IndyWrapper (1.15.0):
+    - IndyCore (= 1.15.0)
+    - libsodium
+    - libzmq (= 4.2.3)
+    - OpenSSL-XCFramework
+  - libsodium (1.0.12)
+  - libzmq (4.2.3)
+  - OpenSSL-XCFramework (1.0.210.1)
+
+DEPENDENCIES:
+  - IndyWrapper (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - libsodium
+  https://github.com/hyperledger/indy-sdk.git:
+    - libzmq
+  https://github.com/Przytua/indy-specs.git:
+    - IndyCore
+    - OpenSSL-XCFramework
+
+EXTERNAL SOURCES:
+  IndyWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IndyCore: caef87f7428572328de0d1ef755d8a8d0aba67b5
+  IndyWrapper: 2987bd91fc7811ade8686f4c05159a712688ef86
+  libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
+  libzmq: fcb6b6159c43147bc04174ec93cb65e5baaf016c
+  OpenSSL-XCFramework: 89264c2b79de8415274a9c7db148d8f102224a1a
+
+PODFILE CHECKSUM: 2b206d84199a1354a6605d32281d2eaa50db9764
+
+COCOAPODS: 1.11.2
